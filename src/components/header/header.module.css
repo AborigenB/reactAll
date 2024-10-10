@@ -1,0 +1,63 @@
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.nav a.active{
+    color: #0009EA;
+}
+
+.logo{
+    margin: 0 auto;
+}
+
+.profile_btns{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.profile_btns button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 25px;
+    gap: 10px;
+
+    background: #232323;
+    color: white;
+    border-radius: 4px;
+}
+
+.profile_btns button:nth-child(2){
+    background: #0009EA;
+}

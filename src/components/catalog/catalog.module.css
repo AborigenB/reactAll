@@ -1,0 +1,42 @@
+.content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+
+.categories{
+    display: flex;
+    gap: 25px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    gap: 10px;
+
+    background: #FFFFFF;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    color: #0009EA;
+}
+
+.active{
+    background: #0009EA;
+    color: white;
+}
+
+.card_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,400px));
+    gap: 30px;
+    justify-content: center;
+}
