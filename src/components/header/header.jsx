@@ -7,9 +7,10 @@ export function Header(){
         <header>
             <div className={`${s.header} ${s.content}`}>
                 <nav className={s.nav}>
+                    <Link className={s.home} to='/home'>На главную</Link>
                     <Link>О нас</Link>
                     <Link>Каталог</Link>
-                    <Link>Где нас найти</Link>
+                    <Link to='/users'>Пользователи</Link>
                 </nav>
 
                 <div className={s.logo}>

@@ -5,7 +5,8 @@ import s from './cardpage.module.css'
 import { Header } from "../../components/header/header";
 import { Link } from "react-router-dom";
 
-export function CardPage(){
+
+export function CardPage(){    
     const {id} = useParams();
     let card = products.find((item) => {if(item.id == id) return item})
 
@@ -14,6 +15,7 @@ export function CardPage(){
             <Header/>
             <section className={`${s.cardpage} ${s.content}`}>
                 <Link className={s.home} to='/home'>На главную</Link>
+                
                 <div className={s.card}>
                     <div className={s.img}>
                         <img src={card.img} alt="img" />

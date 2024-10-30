@@ -1,0 +1,38 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.users_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,400px));
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.user{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: gray;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+}
+
+.addUser{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addUser form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: max-content;
+}
