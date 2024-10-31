@@ -4,7 +4,7 @@ const products = [
         img: 'https://cdn1.ozone.ru/s3/multimedia-g/6820132624.jpg',
         name: 'Daison x500',
         description: 'aboba',
-        price: 335,
+        price: 3355,
         countLast: 12
     },
     {
@@ -18,27 +18,27 @@ const products = [
         id: 2,
         img: 'https://cdn1.ozone.ru/s3/multimedia-g/6820132624.jpg',
         name: 'Ароматизатор для автомобиля Diamond candle c ароматом "Кожа и древесина',
-        price: 335,
+        price: 400,
         countLast: 7
     },
     {
         id: 3,
         img: 'https://cdn1.ozone.ru/s3/multimedia-1-h/c600/7029631205.jpg',
         name: 'Ароматизатор для автомобиля Diamond candle c ароматом "Кожа и древесина',
-        price: 335
+        price: 835
     },
     {
         id: 4,
         // img: '',
         name: 'Ароматизатор для автомобиля Diamond candle c ароматом "Кожа и древесина',
-        price: 335,
+        price: 1335,
         countLast: 2
     },
     {
         id: 5,
         img: 'https://cdn1.ozone.ru/s3/multimedia-g/6820132624.jpg',
         name: 'Ароматизатор для автомобиля Diamond candle c ароматом "Кожа и древесина',
-        price: 335
+        price: 3325
     },
 ]
 
