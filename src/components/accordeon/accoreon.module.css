@@ -1,0 +1,16 @@
+.accordion_item{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(74, 74, 156);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.accordion_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
